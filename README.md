@@ -200,6 +200,7 @@ The project includes a dedicated scheduler.py module that synchronizes both live
 Complete project documentation is available here:
 
 [Project Documentation](documentation/CRICKET LIVE ANALYTICS DASHBOARD USING CRICBUZZ API.docx)
+
 ---
 
 # 📊 Dashboard Modules

@@ -313,11 +313,11 @@ RAPIDAPI_KEY=YOUR_RAPIDAPI_KEY
 
 ## 📊 Analytics
 
-![Analytics](assets/screenshots/analytics_1.png)
+![Analytics](assets/screenshots/analytics1.png)
 
 **Figure 4: Match Analytics Dashboard**
 
-![Analytics](assets/screenshots/analytics_2.png)
+![Analytics](assets/screenshots/analytics2.png)
 
 **Figure 5: Team & Venue Analytics**
 

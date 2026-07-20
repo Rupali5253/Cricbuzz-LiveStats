@@ -32,7 +32,7 @@ This project demonstrates complete Data Analytics workflow including:
 Try the deployed application here:
 
 🔗 **Live Dashboard:**  
-https://cricbuzz-livestats-3enmntvmbtp7nujv9h3oxu.streamlit.app/analytics
+https://cricbuzz-livestats-3enmntvmbtp7nujv9h3oxu.streamlit.app/
 
 > The application is deployed on **Streamlit Cloud** with a **Neon PostgreSQL Cloud Database**, ensuring real-time synchronization of live cricket data.
 

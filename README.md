@@ -27,6 +27,19 @@ This project demonstrates complete Data Analytics workflow including:
 
 ---
 
+# 🌐 Live Demo
+
+Try the deployed application here:
+
+🔗 **Live Dashboard:**  
+https://cricbuzz-livestats-3enmntvmbtp7nujv9h3oxu.streamlit.app/analytics
+
+> The application is deployed on **Streamlit Cloud** with a **Neon PostgreSQL Cloud Database**, ensuring real-time synchronization of live cricket data.
+
+> **Note:** Click **"🔄 Sync Latest Cricket Data"** on the Home Dashboard to fetch the latest live and upcoming cricket data from the Cricbuzz API.
+
+---
+
 # 🎯 Project Objectives
 
 - Fetch Live Cricket Data using Cricbuzz API
@@ -114,7 +127,7 @@ This project demonstrates complete Data Analytics workflow including:
 
 - **Programming Language:** Python
 - **Frontend:** Streamlit
-- **Database:** PostgreSQL
+- **Database:** PostgreSQL (Neon Cloud)
 - **Query Language:** SQL
 - **Data Processing:** Pandas
 - **Data Visualization:** Plotly Express
@@ -183,17 +196,31 @@ Cricbuzz-LiveStats
 ├── requirements.txt
 └── README.md
 ```
-# ⚙️ Scheduler
+# ⚙️ Data Synchronization
 
-The project includes a dedicated scheduler.py module that synchronizes both live and upcoming cricket match data with the PostgreSQL database. The scheduler also updates match history by storing only changed live match snapshots, preventing duplicate historical records.
+The project supports both manual and automatic data synchronization to keep the PostgreSQL (Neon Cloud) database updated with the latest cricket information.
 
-### Responsibilities
+### Manual Synchronization
 
-- Fetch Latest Live Match Data
-- Fetch Upcoming Match Data
-- Update PostgreSQL Database
-- Maintain Match History
-- Prevent Duplicate History Records
+Users can click the **🔄 Sync Latest Cricket Data** button on the Home Dashboard to:
+
+- Fetch the latest live match data
+- Fetch upcoming match data
+- Update the PostgreSQL (Neon Cloud) database
+- Store changed live match snapshots in the history table
+- Prevent duplicate history records using change detection
+
+### Automatic Synchronization
+
+The project also includes a dedicated **scheduler.py** module.
+
+When executed, the scheduler automatically synchronizes cricket data at a fixed interval (every **5 minutes**) by:
+
+- Fetching the latest live match data from Cricbuzz API
+- Fetching upcoming match data
+- Updating the PostgreSQL (Neon Cloud) database
+- Saving only changed live match snapshots into the history table
+- Skipping duplicate history records when no changes are detected
 
 # 📄 Documentation
 
@@ -272,6 +299,7 @@ pip install -r requirements.txt
 
 streamlit run app.py
 ```
+Before running the application, configure your PostgreSQL (Neon Cloud) database credentials in the `.env` file.
 
 ---
 
@@ -281,6 +309,14 @@ Create a `.env` file
 
 ```text
 RAPIDAPI_KEY=YOUR_RAPIDAPI_KEY
+RAPIDAPI_HOST=cricbuzz-cricket.p.rapidapi.com
+
+DB_HOST=YOUR_NEON_HOST
+DB_NAME=YOUR_DATABASE
+DB_USER=YOUR_DATABASE_USER
+DB_PASSWORD=YOUR_DATABASE_PASSWORD
+DB_PORT=5432
+DB_SSLMODE=require
 ```
 
 ---

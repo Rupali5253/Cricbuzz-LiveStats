@@ -1,0 +1,138 @@
+{
+    "typeMatches": [
+        {
+            "matchType": "International",
+            "seriesMatches": [
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 11968,
+                        "seriesName": "Pakistan tour of West Indies, 2026",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 152485,
+                                    "seriesId": 11968,
+                                    "seriesName": "Pakistan tour of West Indies, 2026",
+                                    "matchDesc": "4 -Day Warm-up match",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1784383200000",
+                                    "endDate": "1784667600000",
+                                    "state": "Stumps",
+                                    "status": "Day 2: Stumps",
+                                    "team1": {
+                                        "teamId": 3,
+                                        "teamName": "Pakistan",
+                                        "teamSName": "PAK",
+                                        "imageId": 776308
+                                    },
+                                    "team2": {
+                                        "teamId": 2277,
+                                        "teamName": "West Indies Select XI",
+                                        "teamSName": "WISXI",
+                                        "imageId": 1038627
+                                    },
+                                    "venueInfo": {
+                                        "id": 500,
+                                        "ground": "Brian Lara Stadium",
+                                        "city": "Tarouba, Trinidad",
+                                        "timezone": "-04:00",
+                                        "latitude": "10.295034",
+                                        "longitude": "-61.445609"
+                                    },
+                                    "currBatTeamId": 3,
+                                    "seriesStartDt": "1784332800000",
+                                    "seriesEndDt": "1786147200000",
+                                    "stateTitle": "Stumps"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 455,
+                                            "wickets": 4,
+                                            "overs": 136.5
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "matchType": "Domestic",
+            "seriesMatches": [
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 12327,
+                        "seriesName": "India U19 tour of Sri Lanka 2026",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 157230,
+                                    "seriesId": 12327,
+                                    "seriesName": "India U19 tour of Sri Lanka 2026",
+                                    "matchDesc": "2nd unofficial Test",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1784521800000",
+                                    "endDate": "1784806200000",
+                                    "state": "In Progress",
+                                    "status": "Day 1: 3rd Session",
+                                    "team1": {
+                                        "teamId": 54,
+                                        "teamName": "India U19",
+                                        "teamSName": "INDU19",
+                                        "imageId": 776180
+                                    },
+                                    "team2": {
+                                        "teamId": 172,
+                                        "teamName": "Sri Lanka U19",
+                                        "teamSName": "SLU19",
+                                        "imageId": 776266
+                                    },
+                                    "venueInfo": {
+                                        "id": 15,
+                                        "ground": "R.Premadasa Stadium",
+                                        "city": "Colombo",
+                                        "timezone": "+05:30",
+                                        "latitude": "6.939966",
+                                        "longitude": "79.872222"
+                                    },
+                                    "currBatTeamId": 54,
+                                    "seriesStartDt": "1783123200000",
+                                    "seriesEndDt": "1784937600000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "In Progress"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 253,
+                                            "wickets": 3,
+                                            "overs": 64.6
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "filters": {
+        "matchType": [
+            "International",
+            "League",
+            "Domestic",
+            "Women"
+        ]
+    },
+    "appIndex": {
+        "seoTitle": "Live Cricket Score - Scorecard and Match Results",
+        "webURL": "www.cricbuzz.com/live-cricket-scores/"
+    },
+    "responseLastUpdated": "1784549232"
+}

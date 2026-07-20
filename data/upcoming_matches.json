@@ -1,0 +1,117 @@
+{
+    "typeMatches": [
+        {
+            "matchType": "International",
+            "seriesMatches": [
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 7572,
+                        "seriesName": "ICC Cricket World Cup League Two 2023-27",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 155320,
+                                    "seriesId": 7572,
+                                    "seriesName": "ICC Cricket World Cup League Two 2023-27",
+                                    "matchDesc": "116th Match",
+                                    "matchFormat": "ODI",
+                                    "startDate": "1784624400000",
+                                    "endDate": "1784653200000",
+                                    "state": "Preview",
+                                    "status": "Match starts at Jul 21, 09:00 GMT",
+                                    "team1": {
+                                        "teamId": 72,
+                                        "teamName": "Nepal",
+                                        "teamSName": "NEP",
+                                        "imageId": 776331
+                                    },
+                                    "team2": {
+                                        "teamId": 161,
+                                        "teamName": "Namibia",
+                                        "teamSName": "NAM",
+                                        "imageId": 776326
+                                    },
+                                    "venueInfo": {
+                                        "id": 529,
+                                        "ground": "Sportpark Maarschalkerweerd",
+                                        "city": "Utrecht",
+                                        "timezone": "+02:00",
+                                        "latitude": "52.090737",
+                                        "longitude": "5.121420"
+                                    },
+                                    "seriesStartDt": "1707955200000",
+                                    "seriesEndDt": "1830211200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Preview"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "matchType": "Women",
+            "seriesMatches": [
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 12727,
+                        "seriesName": "Women's T20I Quadrangular Series in Namibia 2026",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 167317,
+                                    "seriesId": 12727,
+                                    "seriesName": "Women's T20I Quadrangular Series in Namibia 2026",
+                                    "matchDesc": "1st Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1784619000000",
+                                    "endDate": "1784631600000",
+                                    "state": "Preview",
+                                    "status": "Match starts at Jul 21, 07:30 GMT",
+                                    "team1": {
+                                        "teamId": 502,
+                                        "teamName": "Hong Kong, China Women",
+                                        "teamSName": "HKC W",
+                                        "imageId": 776276
+                                    },
+                                    "team2": {
+                                        "teamId": 448,
+                                        "teamName": "Uganda Women",
+                                        "teamSName": "UGAW",
+                                        "imageId": 776236
+                                    },
+                                    "venueInfo": {
+                                        "id": 1438052,
+                                        "ground": "High Performance Oval",
+                                        "city": "Windhoek",
+                                        "timezone": "+02:00",
+                                        "latitude": "-22.5859618",
+                                        "longitude": "17.0436255"
+                                    },
+                                    "seriesStartDt": "1784592000000",
+                                    "seriesEndDt": "1785542400000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Preview"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "filters": {
+        "matchType": [
+            "International",
+            "League",
+            "Domestic",
+            "Women"
+        ]
+    },
+    "appIndex": {
+        "seoTitle": "Live Cricket Score - Scorecard and Match Results",
+        "webURL": "www.cricbuzz.com/live-cricket-scores/"
+    },
+    "responseLastUpdated": "1784549232"
+}

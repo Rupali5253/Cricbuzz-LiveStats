@@ -1,0 +1,41 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+
+# Windows
+desktop.ini
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit Cache
+.streamlit/secrets.toml
+
+# Database Cache
+*.sqlite3
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+
+# Test Folder
+tests/
+
+# Python Cache
+.pytest_cache/
